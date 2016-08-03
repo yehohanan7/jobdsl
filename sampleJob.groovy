@@ -6,8 +6,6 @@ job("emacsd") {
         scm 'H/5 * * * *'
     }
     steps {
-       log {
-         println "emacs.d"
-       }
+        shell 'ps aux'
     }
 }
