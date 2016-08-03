@@ -1,4 +1,4 @@
-job("$basePath/grails-example-build") {
+job("$basePath/emacsd") {
     scm {
         github https://github.com/yehohanan7/emacsd.git
     }
