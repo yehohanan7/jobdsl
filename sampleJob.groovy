@@ -1,6 +1,6 @@
 job("emacsd") {
     scm {
-        github "https://github.com/yehohanan7/emacsd.git"
+        github "yehohanan7/emacsd"
     }
     triggers {
         scm 'H/5 * * * *'
