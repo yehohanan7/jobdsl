@@ -1,4 +1,4 @@
-job("$basePath/emacsd") {
+job("emacsd") {
     scm {
         github https://github.com/yehohanan7/emacsd.git
     }
@@ -6,7 +6,8 @@ job("$basePath/emacsd") {
         scm 'H/5 * * * *'
     }
     steps {
-        zip {
-        }
+       log {
+         println "emacs.d"
+       }
     }
 }
